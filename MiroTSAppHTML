@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
+  <style>
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      background-color: #0500FF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover { background-color: #0400D0; }
+  </style>
+</head>
+<body>
+  <h3>Activity Tracker</h3>
+  <button id="start-btn">Log Start Time</button>
+  <button id="end-btn" style="background-color: #FF6B6B;">Log End Time</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
